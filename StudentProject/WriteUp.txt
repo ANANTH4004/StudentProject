@@ -1,0 +1,27 @@
+﻿			Student Project
+
+Step 1 : Create a file using File.Create() Method and Enter some data inside the File in the format of 
+		 Student Name,Class Room Number.
+
+Step 2  : Create a List Which Stores the Data of student. By using File.ReadLines() Method and a Extension method 
+		  called ORDERBY we store the data inside the List named Details.
+
+Step 3 :  Create a Write method to write the data in the file. for that we need to create a File Stream Object and pass Appropiate parameters
+		  With FileMode OPEN and FileAccess Write.
+		  
+		  And Create a Stream Writter Class object then pass the FileSteam Object as the parameter.
+
+		  Then create a do While Loop and ask the user to enter Student Name and Class Room of that student.When user giveS "NO"
+		  the code Exit from the inner loop.
+
+Ster 4 :  Create a another method called Read() to read the data from the file which is already there.
+		  for reading the data from the file we need to create StreamWritter Class and to the reading Operations.
+
+Step 5 :  Create a sort method for sorting the data inside the Details List Which we created in the Step 2. By using the default sort method and
+		  with the help of lambda function sort the list with respect to name of the students in Alphabetical order.
+
+Step 6 :  Create a method for searching the data in the list Entered by the user. it asks user to enter the name of the student 
+		  and find wheather the student is present in the list or not if the student is present inside the list it print the entire data of 
+		  the student and print student not found if the student isn't in the list.
+
+Step 7:  Finally Create a Switch Statement to give the choice upto user which method he/she wants to run.
